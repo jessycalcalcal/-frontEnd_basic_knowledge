@@ -1,4 +1,5 @@
-normal flow、containing block、bfc、margin collapse，base line，writing mode，bidi
+normal flow
+containing block
 
 ### postion 属性值
 
@@ -37,18 +38,3 @@ sticky
 元素的属性值为百分比时，计算值依赖于 `containg block`
 height top bottom 依赖于` containg block` 的 height
 width left right padding margin 依赖于` containg block` 的 width
-
-### bfc
-
-### margin collapse
-
-`margin collapse` 出现的场景
-
-1.
-2.
-
-### base line
-
-### writing mode
-
-### bidi
