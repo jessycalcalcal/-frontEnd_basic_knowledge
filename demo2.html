@@ -1,0 +1,39 @@
+<p>The bottom margin of this paragraph is collapsed …</p>
+<p>
+  … with the top margin of this paragraph, yielding a margin of
+  <code>1.2rem</code> in between.
+</p>
+
+
+<div>
+  This parent element contains two paragraphs!
+  <!-- 没有内容区分的父母和后代 -->
+  <!-- p 的上方 -->
+  <p>
+    This paragraph has a <code>.4rem</code> margin between it and the text
+    above.
+  </p>
+  <p>
+    My bottom margin collapses with my parent, yielding a bottom margin of
+    <code>2rem</code>.
+  </p>
+  <!-- p 的下方 -->
+</div>
+
+<p>I am <code>2rem</code> below the element above.</p>
+
+<style>
+  body {
+    margin: 100px;
+  }
+  div {
+    margin: 4rem 0; /* 上下是 */
+    background: lavender;
+  }
+  
+  p {
+    padding: 4px;
+    margin: 0.4rem 0 1.2rem 0; /* 上下是 0.4 和 1.2 */
+    background: yellow;
+  }
+</style>
